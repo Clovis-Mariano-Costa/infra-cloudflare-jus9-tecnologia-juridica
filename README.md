@@ -1,17 +1,9 @@
-# Infra Cloudflare Jus 9
+# Infra Jus 9 Cloudflare
 
-## Repertório
+Repertório: `infra-jus9-cloudflare`
 
-`infra-jus9-cloudflare`
+Status: novo/técnico
 
-## Status
+Mão na Massa Final — padrão visual, assinatura, governança e orientação obrigatória.
 
-novo
-
-## Fase
-
-Pré-Mão na Massa — Pacote Governança encerrado.
-
-## Finalidade
-
-Cria base de infraestrutura Cloudflare da Jus 9 para domínios, Workers, Pages, DNS, Email Routing, secrets, variáveis e checklists de deploy.
+© Jus 9 Tecnologia Jurídica — software livre, autoria preservada.
