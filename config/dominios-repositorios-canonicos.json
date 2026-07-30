@@ -1,0 +1,37 @@
+{
+  "schema": "jus9.dominios-repositorios.v1",
+  "version": "2026-07-30.v1",
+  "verified_at": "2026-07-30T00:00:00-03:00",
+  "authority": "Clovis Mariano da Costa",
+  "technical_stewardship": "Charlie Juris da Costa / Codex, sob governança humana",
+  "repository_owner": "Clovis-Mariano-Costa",
+  "canonical_root": "https://jus9tecnologia.com.br/",
+  "aliases": [
+    {
+      "url": "https://www.jus9tecnologia.com.br/",
+      "redirects_to": "https://jus9tecnologia.com.br/"
+    }
+  ],
+  "public_channels": [
+    {"host": "jus9tecnologia.com.br", "repository": "jus9-tecnologia-juridica", "purpose": "portal_institucional_mvp", "repository_visibility": "private"},
+    {"host": "carta.jus9tecnologia.com.br", "repository": "carta-jus9-tecnologia-juridica", "purpose": "carta_convites", "repository_visibility": "public"},
+    {"host": "charlieecho.jus9tecnologia.com.br", "repository": "charlieecho-jus9-tecnologia-juridica", "purpose": "casa_canais_charlie_echo", "repository_visibility": "private"},
+    {"host": "documentacao.jus9tecnologia.com.br", "repository": "documentacao-jus9-tecnologia-juridica", "purpose": "documentacao_tecnica", "repository_visibility": "private"},
+    {"host": "equipe.jus9tecnologia.com.br", "repository": "equipe-jus9-tecnologia-juridica", "purpose": "equipe_familia_virtual", "repository_visibility": "private"},
+    {"host": "governanca.jus9tecnologia.com.br", "repository": "governanca-jus9-tecnologia-juridica", "purpose": "governanca", "repository_visibility": "private"},
+    {"host": "investimentos.jus9tecnologia.com.br", "repository": "investimentos-jus9-tecnologia-juridica", "purpose": "investidores_parcerias_documentos", "repository_visibility": "public"},
+    {"host": "jus9verde.jus9tecnologia.com.br", "repository": "jus9verde-jus9-tecnologia-juridica", "purpose": "social_ambiental", "repository_visibility": "private"},
+    {"host": "laboratorio.jus9tecnologia.com.br", "repository": "laboratorio-jus9-tecnologia-juridica", "purpose": "laboratorio_ensino", "repository_visibility": "private"},
+    {"host": "livros.jus9tecnologia.com.br", "repository": "livros-jus9-tecnologia-juridica", "purpose": "livros_doutrina", "repository_visibility": "public"},
+    {"host": "mvp.jus9tecnologia.com.br", "repository": "mvp-jus9-tecnologia-juridica", "purpose": "entrada_ambiente_mvp", "repository_visibility": "private"},
+    {"host": "olamundo.jus9tecnologia.com.br", "repository": "olamundo-jus9-tecnologia-juridica", "purpose": "registro_experimental", "repository_visibility": "private"},
+    {"host": "quandoodesenhofala.jus9tecnologia.com.br", "repository": "quandoodesenhofala-jus9-tecnologia-juridica", "purpose": "projeto_editorial_visual", "repository_visibility": "private"},
+    {"host": "universidadedofuturo.jus9tecnologia.com.br", "repository": "universidadedofuturo-jus9-tecnologia-juridica", "purpose": "educacao_trilhas", "repository_visibility": "private"}
+  ],
+  "non_public_references": [
+    {"host": "investidores.jus9tecnologia.com.br", "state": "no_dns", "replacement": "investimentos.jus9tecnologia.com.br"},
+    {"host": "backend-local.jus9tecnologia.com.br", "state": "local_development_only"},
+    {"host": "naoautorizado.jus9tecnologia.com.br", "state": "internal_marker"}
+  ],
+  "default_private_prefixes": ["admin", "auth", "backend", "cofre", "db", "logs"]
+}

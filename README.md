@@ -1,14 +1,21 @@
 # infra-cloudflare-jus9-tecnologia-juridica
 
 
-## Links institucionais Jus 9 v1.5
+## Infraestrutura e mapa canônico Jus 9
 
-- [Equipe Jus 9](https://www.jus9tecnologia.com.br/equipe/)
+- [Portal Jus 9](https://jus9tecnologia.com.br/)
+- [Equipe Jus 9](https://equipe.jus9tecnologia.com.br/)
 - [Investidores](https://investimentos.jus9tecnologia.com.br/)
-- [MVPs / Demos](https://www.jus9tecnologia.com.br/mvp#demos-jus9)
+- [MVPs / Demos](https://jus9tecnologia.com.br/mvp)
 - [Charlie Echo](https://charlieecho.jus9tecnologia.com.br/)
 - [Charlie Echo Social](https://jus9verde.jus9tecnologia.com.br/charlie-echo-social)
 - [Contato](mailto:Contato@jus9tecnologia.com.br)
+
+O inventário vigente de canais, repositórios, funções, estado DNS e política
+canônica está em:
+
+- [Mapa canônico de domínios e repositórios](MAPA_CANONICO_DOMINIOS_REPOSITORIOS_2026-07-30.md)
+- [Manifesto legível por máquina](config/dominios-repositorios-canonicos.json)
 
 <!-- JUS9_ECOSYSTEM_STATUS_START -->
 ## Integracao com o ecossistema Jus 9 - baseline de 21/07/2026
@@ -24,5 +31,5 @@ O fundador confirma que, ate 21/07/2026, o trabalho produtivo do ecossistema foi
 
 Regras permanentes: nao publicar credenciais, tokens, cookies, IDs privados de sessao ou dados pessoais desnecessarios; usar dados ficticios nas demonstracoes; exigir revisao humana para trabalho juridico; e falhar de forma fechada quando uma fonte oficial estiver indisponivel. O CNJ ainda nao respondeu ao contato institucional registrado, e o silencio nao autoriza integracao ou efeito transacional.
 
-**Repositorio catalogado:** $Repository.
+**Repositório catalogado:** `infra-cloudflare-jus9-tecnologia-juridica`.
 <!-- JUS9_ECOSYSTEM_STATUS_END -->
