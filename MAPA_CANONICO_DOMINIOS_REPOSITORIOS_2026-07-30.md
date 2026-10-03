@@ -36,6 +36,7 @@ revisão própria.
 | `https://mvp.jus9tecnologia.com.br/` | porta de entrada do ambiente MVP | `mvp-jus9-tecnologia-juridica` | privado |
 | `https://olamundo.jus9tecnologia.com.br/` | registro experimental “Olá Mundo” | `olamundo-jus9-tecnologia-juridica` | privado |
 | `https://quandoodesenhofala.jus9tecnologia.com.br/` | projeto editorial e visual | `quandoodesenhofala-jus9-tecnologia-juridica` | privado |
+| `https://sistema.thiago.jus9verde.jus9tecnologia.com.br/` | Sistema Thiago — acompanhamento de leilões | `sistema-thiago-leilao` | público |
 | `https://universidadedofuturo.jus9tecnologia.com.br/` | educação e trilhas | `universidadedofuturo-jus9-tecnologia-juridica` | privado |
 
 ## Alias
@@ -89,3 +90,9 @@ canônicos quando ainda recebam tráfego; não devem continuar sendo promovidas.
 7. Ausência de segredos e de endpoints locais promovidos como produção.
 8. Registro de versão, commit, PR, deploy e verificação pública.
 
+
+## Nota operacional — Sistema Thiago — 2026-10-03
+
+Foi observada divergência entre a publicação GitHub Pages do repositório `sistema-thiago-leilao` e o domínio `sistema.thiago.jus9verde.jus9tecnologia.com.br`. O domínio próprio permaneceu servindo versão anterior enquanto a publicação GitHub Pages recebeu commits novos. A correção de código não resolve, por si só, essa divergência: a configuração Cloudflare Pages/DNS precisa apontar o domínio canônico para a implantação atual do repositório ou receber novo deploy da mesma revisão.
+
+Enquanto houver duas origens, `localStorage` continua isolado por origem. A aplicação passa a usar Supabase autenticado como ponte de backup/sincronização para reduzir essa diferença, mas a fonte de deploy do domínio próprio ainda precisa ser reconciliada na infraestrutura Cloudflare.
